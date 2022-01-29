@@ -10,4 +10,6 @@ def remove_char(s: str, c: str):
 
 print("Given string after removing given character ::", remove_char("krunal", 'r'))
 
-# Output :: kunal
+# Output:
+# ---------
+# Given string after removing given character :: kunal

@@ -1,4 +1,4 @@
-def count_of_char(s: str, c: str):
+def count_of_character_occurrence(s: str, c: str):
     count = 0
 
     for i in range(len(s)):
@@ -8,7 +8,7 @@ def count_of_char(s: str, c: str):
     return count
 
 
-print("Given character occurrence in string ::", count_of_char("pradip", "p"))
+print("Given character occurrence in string ::", count_of_character_occurrence("pradip", "p"))
 
 # Output:
 # ---------

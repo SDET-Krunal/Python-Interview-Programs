@@ -8,7 +8,7 @@ def count_of_character_occurrence(s: str, c: str):
     return count
 
 
-print("Given character occurrence in string ::", count_of_character_occurrence("pradip", "p"))
+print("Given character occurrence in string ::", count_of_character_occurrence("pradeep", "p"))
 
 # Output:
 # ---------

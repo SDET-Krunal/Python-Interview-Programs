@@ -19,4 +19,3 @@ def count_of_word_occurrence_method_2(s: str) -> str:
 
 word_occurrence_count = count_of_word_occurrence_method_2("I slit the sheet, and on the slitted sheet I sit")
 print(word_occurrence_count)
-

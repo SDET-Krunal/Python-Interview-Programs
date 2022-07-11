@@ -18,4 +18,3 @@ is_perfect_number(6)
 # Output:
 # --------
 # Perfect number...
-

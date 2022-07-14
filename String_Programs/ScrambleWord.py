@@ -20,3 +20,8 @@ def get_scramble_words(words: list, mask_pattern: str) -> list:
 for mask_word in ["*re**", "***"]:
     print("Scramble words matched with '{}' :: {}".format(
         mask_word, get_scramble_words(["red", "dee", "cede", "reed", "creed", "decree"], mask_word)))
+
+# Output:
+# ---------
+# Scramble words matched with '*re**' :: ['creed']
+# Scramble words matched with '***' :: ['red', 'dee']
